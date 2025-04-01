@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Fornada Manauara</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Fornada Manaura</div>
+        <nav class="nav-links">
+            <a href="#menu">Menu</a>
+            <a href="#features">Características</a>
+            <a href="#testimonials">Depoimentos</a>
+            <a href="#about">Sobre</a>
+        </nav>
+        <button class="cta-btn">Encomende agora</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Pizzas Artesanais Feitas com Paixão</h1>
+            <p>Experimente os sabores italianos autênticos com nossas
+                pizzas assadas no forno a lenha, feitas com ingredientes de origem local.
+            </p>
+            <button class="cta-btn">Explore o Menu</button>
+        </div>
+        <div class="hero-image">
+            <img src="assets/hero.png" height="600px" alt="Artisian Pizza">
+        </div>
+
+    </section>
+
+
+    <!-- Menu Section -->
+    <section class="menu" id="menu">
+        <h2>Nosso cardápio</h2>
+        <div class="menu-filters">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="pizza">Pizzas</button>
+            <button class="filter-btn" data-filter="pasta">Massas</button>
+        </div>
+
+        <div class="menu-grid">
+            <div class="menu-card" data-category="pizza">
+                <div class="menu-card-content">
+                    <img src="assets/1.avif.jpg" height="200px">
+                    <h3>Marguerita Clássica</h3>
+                    <p>Tomate San Marzano, mussarela fresca, manjericão</p>
+                    <div class="price">R$60.00</div>
+                </div>
+            </div>
+
+            <div class="menu-card" data-category="pizza">
+                <div class="menu-card-content">
+                    <img src="assets/2.avif.jpg" height="200px">
+                    <h3>Pizza de Pepperoni</h3>
+                    <p>Pepperoni picante, mussarela e molho de tomate</p>
+                    <div class="price">R$65.00</div>
+                </div>
+            </div>
+
+            <div class="menu-card" data-category="pasta">
+                <div class="menu-card-content">
+                    <img src="assets/3.avif.jpg" height="200px">
+                    <h3>Espaguete Carbonara</h3>
+                    <p>Macarrão romano clássico com ovos, queijo e pancetta</p>
+                    <div class="price">R$40.00</div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fa-solid fa-fire"></i>
+                <h3>Forno a Lenha</h3>
+                <p>Forno de tijolos autêntico para cozinhar a 900°F</p>
+            </div>
+
+            <div class="feature-card">
+                <i class="fa-solid fa-seedling"></i>
+                <h3>Ingredientes locais</h3>
+                <p>Obtido diariamente de fazendas locais</p>
+            </div>
+
+            <div class="feature-card">
+                <i class="fa-solid fa-clock"></i>
+                <h3>Entrega rápida</h3>
+                <p>Garantia de 30 minutos, ou sua pizza de graça</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <h2>O que nossos clientes dizem</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <img src="assets/profile.png" height="80px" alt="Customer">
+                <h3>Alexandre Lima</h3>
+                <p>A melhor pizza que já comi! Fresca e saborosa</p>
+            </div>
+            <!-- You can add more testimonial cards here -->
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>Fornada Pizza</h3>
+                <p>Trazendo sabores italianos autênticos até a sua porta desde 2015</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Links rápidos</h3>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#features">Características</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contato</h3>
+                <p>123 pizza, AM</p>
+                <p>(92) 99555-5777</p>
+                <p>info@fornadaopizza.com</p>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+
+        <div class="copyright">
+            2025 Fornada Pizza. Todos os direitos reservados.
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+<!-- Link to js file -->
+<script src="script.js"></script>
+
+</html>
